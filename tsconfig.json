@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "rootDir": "./test",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["mocha"],
+    "outDir": "./dist",
+    "paths": {
+      "@endpoint/*": ["./test/endpoint/*"],
+      "@service/*": ["./test/service/*"],
+      "@utils/*": ["./test/utils/*"],
+      "@data/*": ["./test/support/data/*"],
+      "@schema/*": ["./test/support/schema-validator/*"]
+    }
+  },
+  "include": ["test/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
