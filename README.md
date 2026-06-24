@@ -56,10 +56,11 @@ api/
 1. Go to [https://reqres.in](https://reqres.in) and sign up for a free account.
 2. Copy your API key from the dashboard.
 
-### 2. Clone / enter the project
+### 2. Clone the repository
 
 ```bash
-cd /Users/mahendra/Documents/project/api
+git clone https://github.com/yhmahendra/edts-api.git
+cd edts-api
 ```
 
 ### 3. Install dependencies
